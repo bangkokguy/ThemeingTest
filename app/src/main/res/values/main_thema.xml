@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <declare-styleable name="Uppsz">
+
+    </declare-styleable>
+
+    <style name="Packet1.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+     </style>
+    <style name="Packet1.AppTheme.Layout" Parent = "Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+
+    <style name="Packet2.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+        <item name="colorAccent">@color/colorAccent1</item>
+        <!--item name="colorBackground">@color/colorPrimary1</item-->
+    </style>
+    <style name="Packet2.AppTheme.Layout" Parent = "Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+</resources>
